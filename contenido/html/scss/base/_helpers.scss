@@ -1,0 +1,31 @@
+// Frameception 2.0
+// _helpers
+// In this file you can put every class that would help in styling the content
+
+.clearfix{display:block;}
+.clearfix:after{
+  content: "."; 
+  display: block; 
+  height: 0; 
+  clear: both; 
+  visibility: hidden;
+  overflow:hidden;
+}
+
+.m-0{margin: 0;}
+.m-b-0{margin-bottom: 0!important;}
+.m-b-5{margin-bottom: 5px!important;}
+.m-b-10{margin-bottom: 10px!important;}
+.m-b-15{margin-bottom: 15px!important;}
+.m-b-20{margin-bottom: 20px!important;}
+.m-b-25{margin-bottom: 25px!important;}
+.m-b-30{margin-bottom: 30px!important;}
+.m-b-40{margin-bottom: 40px!important;}
+.m-b-50{margin-bottom: 50px!important;}
+.m-b-70{margin-bottom: 70px!important;}
+.m-b-100{margin-bottom: 100px!important;}
+
+.m-l-25{margin-left:25px !important;}
+
+.p-0{padding:0;}
+.p-l-55{padding-left:55px !important;}

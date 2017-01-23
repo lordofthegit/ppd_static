@@ -1,0 +1,154 @@
+.flexibility-table{
+	max-width: 500px;
+	.table-header{
+		border-bottom: solid rgba(255,255,255,.38) 3px;
+		display: flex;
+		flex-wrap: nowrap;
+		justify-content: space-around;
+		align-items: center;
+		.table-item{
+			color:#F2A41B;
+			text-align: center;
+			font-size: 22px;
+			width: 85px;
+			padding: 5px;
+		}
+	}
+	.table-row{
+		border-bottom: solid rgba(255,255,255,.38) .1px;
+		display: flex;
+		flex-wrap: nowrap;
+		justify-content: space-around;
+		align-items: center;
+		.table-item{
+			color:white;
+			text-align: center;
+			font-size: 22px;
+			width: 85px;
+			padding: 10px;
+			img{width: 40px;}
+		}
+	}
+
+}
+.flexibility-reference{
+	p{
+		margin-bottom: 0;
+		font-size: 14px;
+	}
+	.small{font-size: 12px;}
+}
+
+.flexibility-compare{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	.compare-list{
+		width: 350px;
+		.title h2{text-align: left; color: #85786F; font-size: 14px;}
+		.item{
+			border-bottom: solid rgba(133,120,111,.5) 1.5px;
+			padding: 0 10px;
+			height: 45px;
+			display: flex;
+			align-items: center;
+			svg{width:30px; height:30px; margin-right: 10px}
+			p{color:#85786F; margin-bottom: 0; font-size: 14px; line-height: 1.2;}
+		}
+	}
+	.versus{padding: 15px;}
+}
+
+.membership-table{
+	background-color: rgba(100,92,85,.15);
+	padding: 10px;
+	font-size: 22px;
+	&.light{background-color: rgba(237,237,238,.5)}
+	table{
+		border-spacing: 5px;
+		.table-header{
+			color: white; 
+			text-align: center; 
+			font-weight: normal;
+			min-width: 90px;
+		}
+		.table-cont{
+			text-align: center; 
+			background-color: rgba(100,92,85,.20); 
+			height: 50px;
+		}
+		td{color:#645C55;}
+	}
+}
+
+.fechas-list{
+	.list-item{
+		display: flex;
+		border-top: solid #85786F 1px;
+		padding: 30px 15px;
+		h2{
+			color:#85786F;
+			min-width: 200px;	
+		}
+		.list-row{
+			display: flex;
+			svg{
+				width: 40px;
+				height: 40px;
+			}
+			.row-text{
+				margin-left: 30px;
+				max-width: 550px;
+				p{
+					color:#85786F;
+					margin-bottom: 1rem;
+					line-height: 1.2; 
+				}
+			}
+		}
+	}
+}
+
+.puntos-reglas{
+	top:100px; 
+	left:80px;
+	.reglas-temporada{
+		padding: 5px 10px;
+		p{font-size:18px; margin-bottom: 0;}
+
+	}
+	.reglas-main{
+		padding: 10px;
+		p{color:#645C55;}
+		.reglas-conditions{
+			border-top: solid #85786F 1px;
+			border-bottom: solid #85786F 1px;
+			padding: 25px 35px;
+			p{margin-bottom: 0;}
+			ul{margin-bottom: 5px;}
+			span{color:#645C55;}
+		}
+		.reglas-master{
+			display: flex;
+			align-items: center;
+			padding: 20px;
+			svg{
+				width: 120px;
+				height: 122px;
+			}
+			p{margin-bottom: 0;  margin-left: 50px; font-size: 14px;}
+		}
+	}
+	&.purple{
+		.reglas-temporada{background-color: rgba(87,51,131,.8)}
+		li{color:rgb(87,51,131);}
+	}
+	&.pink{
+		.reglas-temporada{background-color: rgba(227,0,121,.8)}
+		li{color:rgb(227,0,121);}
+	}
+	&.green{
+		.reglas-temporada{background-color: rgba(133,177,39,.8)}
+		li{color:rgb(133,177,39);}
+	}
+}

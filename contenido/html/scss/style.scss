@@ -1,0 +1,23 @@
+/*   
+Theme Name: Frameception Theme
+Description: This is just a Frameception 2 site
+Author: Chuy Granados
+*/
+// This is our main styling file. It imports all the components, plugins, modules and specifc styles for every template
+@import "foundation/app";
+@import "modules/fonts";
+
+@import "plugins/magnificpopup/magnific-popup";
+@import "plugins/slick/slick";
+@import "plugins/slick/slick-theme";
+
+@import "base/variables";
+@import "base/mixins";
+@import "base/helpers";
+@import "base/typography";
+@import "base/base";
+@import "base/layouts";
+
+@import "modules/fontawesome";
+@import "modules/viajes";
+@import "modules/galeria";

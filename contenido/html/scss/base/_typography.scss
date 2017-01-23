@@ -1,0 +1,21 @@
+// Frameception 2.0
+// _typography
+// All styling for headlines, paragraphs, links, and any other typographic element can be found within this file.
+
+body{font-family: $base-primary-font;}
+h2, h3, h4, h5, h6{font-family: $headline-secondary-font; font-weight: 300; margin: 0;}
+h2, h3, h4, h5, h6, p, a{color: white;}
+.dark-text{color: black!important;}
+.yellow-text{color: #F2A41B!important;}
+.brown-text{color: #776f68!important;}
+.lightbrown-text{color: #aca29d!important;}
+.white-text{color:white !important}
+
+.base-font{font-family: $headline-secondary-font!important;}
+.bold{font-weight: 700;}
+
+h1{color: #F2A41B; font-size: 1.875rem; font-family: $headline-primary-font; font-weight: 400; margin: 0;}
+h2{font-size: 1.3125rem;}
+h3{font-size: 1.125rem;}
+h4{font-size: 1rem;}
+h5{font-size: 0.875rem;}

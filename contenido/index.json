@@ -1,0 +1,831 @@
+{
+   "categorias":[
+     {
+       "titulo":"Bienvenida",
+       "id":"001",
+       "color":"#472547",
+       "titulos":{"es":"BIENVENIDA","en":"WELCOME"},
+       "peso":1
+     },
+     {
+       "titulo":"Sistema de puntos",
+       "id":"002",
+       "color":"#7E1A5C",
+       "titulos":{"es":"SISTEMA DE PUNTOS","en":"POINT SYSTEM"},
+       "peso":1
+     },
+     {
+       "titulo":"Rent vs own",
+       "id":"003",
+       "color":"#F35A64",
+       "titulos":{"es":"RENT VS OWN","en":"RENT VS OWN"},
+       "peso":1
+     },
+     {
+       "titulo":"Viaja por el mundo",
+       "id":"004",
+       "color":"#FFBF54",
+       "titulos":{"es":"VIAJA POR EL MUNDO","en":"TRAVEL THE WORLD"},
+       "peso":2
+     },
+     {
+       "titulo":"Tabla de puntos",
+       "id":"005",
+       "color":"#BABD4E",
+       "titulos":{"es":"TABLA DE PUNTOS","en":"PONTS TABLE"},
+       "peso":1
+     },
+     {
+       "titulo":"Para que me alcanza",
+       "id":"006",
+       "color":"#66CBC2",
+       "titulos":{"es":"¿PARA QUÉ ME ALCANZA?", "en":"WHAT CAN I GET?"},
+       "peso":1
+     },
+     {
+       "titulo":"Beneficios",
+       "id":"007",
+       "color":"#46919A",
+       "titulos":{"es":"BENEFICIOS","en":"BENEFITS"},
+       "peso":1
+     },
+     {
+       "titulo":"Beneficios master",
+       "id":"008",
+       "color":"#27475F",
+       "titulos":{"es":"BENEFICIOS MASTER","en":"MASTER BENEFITS"},
+       "peso":1
+     }
+   ],
+   "contenidos":[
+      {
+         "titulo_es":"Carta Director General Posadas",
+         "titulo_en":"Page 1",
+         "carpeta":"html",
+         "archivo":"bienvenida1",
+         "mostrarenmenu":true,
+         "titulomenu_es":"Bienvenida",
+         "titulomenu_en":"Welcome",
+         "categoria":"Bienvenida"
+      },
+      {
+         "titulo_es":"Carta Director General Provac",
+         "titulo_en":"Page 2",
+         "carpeta":"html",
+         "archivo":"bienvenida2",
+         "mostrarenmenu":false,
+         "categoria":"Bienvenida"
+         
+      },
+      {
+         "titulo_es":"Misión / Visión",
+         "titulo_en":"Mission / Vision",
+         "carpeta":"html",
+         "archivo":"mision-vision",
+         "mostrarenmenu":true,
+         "titulomenu_es":"Misión / Visión",
+         "titulomenu_en":"Mission / Vision",
+         "categoria":"Bienvenida"
+      },
+      {
+         "titulo_es":"Mapa Posadas",
+         "titulo_en":"Posadas Map",
+         "carpeta":"html",
+         "archivo":"hoteles-posadas",
+         "mostrarenmenu":true,
+         "titulomenu_es":"Mapa Posadas",
+         "titulomenu_en":"Posadas Map",
+         "categoria":"Bienvenida"
+      },
+      {
+         "titulo_es":"Crecimiento",
+         "titulo_en":"Growth",
+         "carpeta":"html",
+         "archivo":"crecimiento",
+         "mostrarenmenu":true,
+         "titulomenu_es":"Crecimiento",
+         "titulomenu_en":"Growth",
+         "categoria":"Bienvenida"
+      },
+      {
+         "titulo_es":"Aperturas",
+         "titulo_en":"Opennings",
+         "carpeta":"html",
+         "archivo":"aperturas",
+         "mostrarenmenu":true,
+         "titulomenu_es":"Aperturas",
+         "titulomenu_en":"Opennings",
+         "categoria":"Bienvenida"
+      },
+      {
+         "titulo_es":"Flexibilidad de Uso",
+         "titulo_en":"Usage flexibility",
+         "carpeta":"html",
+         "archivo":"sistema_puntos-deposito_puntos",
+         "mostrarenmenu":true,
+         "titulomenu_es":"Flexibilidad de puntos",
+         "titulomenu_en":"Point flexibility",
+         "categoria":"Sistema de puntos"
+      },
+      {
+         "titulo_es":"Flexibilidad de puntos",
+         "titulo_en":"Point flexibility",
+         "carpeta":"html",
+         "archivo":"sistema_puntos-open_season",
+         "mostrarenmenu":false,
+         "titulomenu_es":"Flexibilidad de puntos",
+         "titulomenu_en":"Point flexibility",
+         "categoria":"Sistema de puntos"
+      },
+      {
+         "titulo_es":"Tiempo compartido vs Club Vacacional",
+         "titulo_en":"Shared time vs Vacational Club",
+         "carpeta":"html",
+         "archivo":"sistema_puntos-tiempo_compartido",
+         "mostrarenmenu":true,
+         "titulomenu_es":"Tiempo compartido vs Club Vacacional",
+         "titulomenu_en":"Shared time vs Vacational Club",
+         "categoria":"Sistema de puntos"
+      },
+      {
+         "titulo_es":"Rent vs. Own",
+         "titulo_en":"Rent vs. Own",
+         "carpeta":"html",
+         "archivo":"sistema_puntos-rent_own",
+         "mostrarenmenu":true,
+         "titulomenu_es":"Rent vs. Own",
+         "titulomenu_en":"Rent vs. Own",
+         "categoria":"Rent vs own"
+      },
+      {
+         "titulo_es":"Villas",
+         "titulo_en":"Villas",
+         "carpeta":"html",
+         "archivo":"villas",
+         "mostrarenmenu":true,
+         "titulomenu_es":"Villas",
+         "titulomenu_en":"Villas",
+         "categoria":"Viaja por el mundo"
+      },
+      {
+         "titulo_es":"Villas",
+         "titulo_en":"Villas",
+         "carpeta":"html",
+         "archivo":"villas-acapulco",
+         "mostrarenmenu":false,
+         "titulomenu_es":"Villas",
+         "titulomenu_en":"Villas",
+         "categoria":"Viaja por el mundo"
+      },
+      {
+         "titulo_es":"Villas",
+         "titulo_en":"Villas",
+         "carpeta":"html",
+         "archivo":"villas-cabos",
+         "mostrarenmenu":false,
+         "titulomenu_es":"Villas",
+         "titulomenu_en":"Villas",
+         "categoria":"Viaja por el mundo"
+      },
+      {
+         "titulo_es":"Villas",
+         "titulo_en":"Villas",
+         "carpeta":"html",
+         "archivo":"villas-cancun",
+         "mostrarenmenu":false,
+         "titulomenu_es":"Villas",
+         "titulomenu_en":"Villas",
+         "categoria":"Viaja por el mundo"
+      },
+      {
+         "titulo_es":"Villas",
+         "titulo_en":"Villas",
+         "carpeta":"html",
+         "archivo":"villas-cozumel",
+         "mostrarenmenu":false,
+         "titulomenu_es":"Villas",
+         "titulomenu_en":"Villas",
+         "categoria":"Viaja por el mundo"
+      },
+      {
+         "titulo_es":"Hoteles y Resorts Posadas",
+         "titulo_en":"Posadas Hotels and Resorts",
+         "carpeta":"html",
+         "archivo":"menu-posadas",
+         "mostrarenmenu":true,
+         "titulomenu_es":"Hoteles y Resorts Posadas",
+         "titulomenu_en":"Posadas Hotels and Resorts",
+         "categoria":"Viaja por el mundo"
+      },
+      {
+         "titulo_es":"Live Aqua Resorts & Residence Club",
+         "titulo_en":"Live Aqua Resorts & Residence Club",
+         "carpeta":"html",
+         "archivo":"liveaqua-submenu",
+         "mostrarenmenu":false,
+         "titulomenu_es":"Hoteles y Resorts Posadas",
+         "titulomenu_en":"Posadas Hotels and Resorts",
+         "categoria":"Viaja por el mundo"
+      },
+      {
+         "titulo_es":"Live Aqua Resorts & Residence Club",
+         "titulo_en":"Live Aqua Resorts & Residence Club",
+         "carpeta":"html",
+         "archivo":"liveaqua-cancun",
+         "mostrarenmenu":false,
+         "titulomenu_es":"Hoteles y Resorts Posadas",
+         "titulomenu_en":"Posadas Hotels and Resorts",
+         "categoria":"Viaja por el mundo"
+      },
+      {
+         "titulo_es":"Live Aqua Resorts & Residence Club",
+         "titulo_en":"Live Aqua Resorts & Residence Club",
+         "carpeta":"html",
+         "archivo":"liveaqua-mexico",
+         "mostrarenmenu":false,
+         "titulomenu_es":"Hoteles y Resorts Posadas",
+         "titulomenu_en":"Posadas Hotels and Resorts",
+         "categoria":"Viaja por el mundo"
+      },
+      {
+         "titulo_es":"Live Aqua Resorts & Residence Club",
+         "titulo_en":"Live Aqua Resorts & Residence Club",
+         "carpeta":"html",
+         "archivo":"liveaqua-monterrey",
+         "mostrarenmenu":false,
+         "titulomenu_es":"Hoteles y Resorts Posadas",
+         "titulomenu_en":"Posadas Hotels and Resorts",
+         "categoria":"Viaja por el mundo"
+      },
+      {
+         "titulo_es":"Live Aqua Resorts & Residence Club",
+         "titulo_en":"Live Aqua Resorts & Residence Club",
+         "carpeta":"html",
+         "archivo":"liveaqua-carmen",
+         "mostrarenmenu":false,
+         "titulomenu_es":"Hoteles y Resorts Posadas",
+         "titulomenu_en":"Posadas Hotels and Resorts",
+         "categoria":"Viaja por el mundo"
+      },
+      {
+         "titulo_es":"Grand Fiesta Americana",
+         "titulo_en":"Grand Fiesta Americana",
+         "carpeta":"html",
+         "archivo":"gfa-submenu",
+         "mostrarenmenu":false,
+         "titulomenu_es":"Hoteles y Resorts Posadas",
+         "titulomenu_en":"Posadas Hotels and Resorts",
+         "categoria":"Viaja por el mundo"
+      },
+      {
+         "titulo_es":"Grand Fiesta Americana",
+         "titulo_en":"Grand Fiesta Americana",
+         "carpeta":"html",
+         "archivo":"gfa-cancun",
+         "mostrarenmenu":false,
+         "titulomenu_es":"Hoteles y Resorts Posadas",
+         "titulomenu_en":"Posadas Hotels and Resorts",
+         "categoria":"Viaja por el mundo"
+      },
+      {
+         "titulo_es":"Grand Fiesta Americana",
+         "titulo_en":"Grand Fiesta Americana",
+         "carpeta":"html",
+         "archivo":"gfa-guadalajara",
+         "mostrarenmenu":false,
+         "titulomenu_es":"Hoteles y Resorts Posadas",
+         "titulomenu_en":"Posadas Hotels and Resorts",
+         "categoria":"Viaja por el mundo"
+      },
+      {
+         "titulo_es":"Grand Fiesta Americana",
+         "titulo_en":"Grand Fiesta Americana",
+         "carpeta":"html",
+         "archivo":"gfa-cabos",
+         "mostrarenmenu":false,
+         "titulomenu_es":"Hoteles y Resorts Posadas",
+         "titulomenu_en":"Posadas Hotels and Resorts",
+         "categoria":"Viaja por el mundo"
+      },
+      {
+         "titulo_es":"Grand Fiesta Americana",
+         "titulo_en":"Grand Fiesta Americana",
+         "carpeta":"html",
+         "archivo":"gfa-monterrey",
+         "mostrarenmenu":false,
+         "titulomenu_es":"Hoteles y Resorts Posadas",
+         "titulomenu_en":"Posadas Hotels and Resorts",
+         "categoria":"Viaja por el mundo"
+      },
+      {
+         "titulo_es":"Grand Fiesta Americana",
+         "titulo_en":"Grand Fiesta Americana",
+         "carpeta":"html",
+         "archivo":"gfa-puebla",
+         "mostrarenmenu":false,
+         "titulomenu_es":"Hoteles y Resorts Posadas",
+         "titulomenu_en":"Posadas Hotels and Resorts",
+         "categoria":"Viaja por el mundo"
+      },
+      {
+         "titulo_es":"Grand Fiesta Americana",
+         "titulo_en":"Grand Fiesta Americana",
+         "carpeta":"html",
+         "archivo":"gfa-puerto",
+         "mostrarenmenu":false,
+         "titulomenu_es":"Hoteles y Resorts Posadas",
+         "titulomenu_en":"Posadas Hotels and Resorts",
+         "categoria":"Viaja por el mundo"
+      },
+      {
+         "titulo_es":"Fiesta Americana",
+         "titulo_en":"Fiesta Americana",
+         "carpeta":"html",
+         "archivo":"fa-submenu",
+         "mostrarenmenu":false,
+         "titulomenu_es":"Hoteles y Resorts Posadas",
+         "titulomenu_en":"Posadas Hotels and Resorts",
+         "categoria":"Viaja por el mundo"
+      },
+      {
+         "titulo_es":"Fiesta Americana",
+         "titulo_en":"Fiesta Americana",
+         "carpeta":"html",
+         "archivo":"fa-cancun",
+         "mostrarenmenu":false,
+         "titulomenu_es":"Hoteles y Resorts Posadas",
+         "titulomenu_en":"Posadas Hotels and Resorts",
+         "categoria":"Viaja por el mundo"
+      },
+      {
+         "titulo_es":"Fiesta Americana",
+         "titulo_en":"Fiesta Americana",
+         "carpeta":"html",
+         "archivo":"fa-cuernavaca",
+         "mostrarenmenu":false,
+         "titulomenu_es":"Hoteles y Resorts Posadas",
+         "titulomenu_en":"Posadas Hotels and Resorts",
+         "categoria":"Viaja por el mundo"
+      },
+      {
+         "titulo_es":"Fiesta Americana",
+         "titulo_en":"Fiesta Americana",
+         "carpeta":"html",
+         "archivo":"fa-guadalajara",
+         "mostrarenmenu":false,
+         "titulomenu_es":"Hoteles y Resorts Posadas",
+         "titulomenu_en":"Posadas Hotels and Resorts",
+         "categoria":"Viaja por el mundo"
+      },
+      {
+         "titulo_es":"Fiesta Americana",
+         "titulo_en":"Fiesta Americana",
+         "carpeta":"html",
+         "archivo":"fa-puerto",
+         "mostrarenmenu":false,
+         "titulomenu_es":"Hoteles y Resorts Posadas",
+         "titulomenu_en":"Posadas Hotels and Resorts",
+         "categoria":"Viaja por el mundo"
+      },
+      {
+         "titulo_es":"Fiesta Americana",
+         "titulo_en":"Fiesta Americana",
+         "carpeta":"html",
+         "archivo":"fa-queretaro",
+         "mostrarenmenu":false,
+         "titulomenu_es":"Hoteles y Resorts Posadas",
+         "titulomenu_en":"Posadas Hotels and Resorts",
+         "categoria":"Viaja por el mundo"
+      },
+      {
+         "titulo_es":"Fiesta Americana",
+         "titulo_en":"Fiesta Americana",
+         "carpeta":"html",
+         "archivo":"fa-veracruz",
+         "mostrarenmenu":false,
+         "titulomenu_es":"Hoteles y Resorts Posadas",
+         "titulomenu_en":"Posadas Hotels and Resorts",
+         "categoria":"Viaja por el mundo"
+      },
+      {
+         "titulo_es":"Fiesta Inn",
+         "titulo_en":"Fiesta Inn",
+         "carpeta":"html",
+         "archivo":"fiestainn-submenu",
+         "mostrarenmenu":false,
+         "titulomenu_es":"Hoteles y Resorts Posadas",
+         "titulomenu_en":"Posadas Hotels and Resorts",
+         "categoria":"Viaja por el mundo"
+      },
+      {
+         "titulo_es":"Gamma",
+         "titulo_en":"Gamma",
+         "carpeta":"html",
+         "archivo":"gamma-submenu",
+         "mostrarenmenu":false,
+         "titulomenu_es":"Hoteles y Resorts Posadas",
+         "titulomenu_en":"Posadas Hotels and Resorts",
+         "categoria":"Viaja por el mundo"
+      },
+      {
+         "titulo_es":"The Explorean",
+         "titulo_en":"The Explorean",
+         "carpeta":"html",
+         "archivo":"explorean-submenu",
+         "mostrarenmenu":false,
+         "titulomenu_es":"Hoteles y Resorts Posadas",
+         "titulomenu_en":"Posadas Hotels and Resorts",
+         "categoria":"Viaja por el mundo"
+      },
+      {
+         "titulo_es":"The Explorean",
+         "titulo_en":"The Explorean",
+         "carpeta":"html",
+         "archivo":"explorean-chetumal",
+         "mostrarenmenu":false,
+         "titulomenu_es":"Hoteles y Resorts Posadas",
+         "titulomenu_en":"Posadas Hotels and Resorts",
+         "categoria":"Viaja por el mundo"
+      },
+      {
+         "titulo_es":"The Explorean",
+         "titulo_en":"The Explorean",
+         "carpeta":"html",
+         "archivo":"explorean-cozumel",
+         "mostrarenmenu":false,
+         "titulomenu_es":"Hoteles y Resorts Posadas",
+         "titulomenu_en":"Posadas Hotels and Resorts",
+         "categoria":"Viaja por el mundo"
+      },
+      {
+         "titulo_es":"Hilton Grand Vacation Club",
+         "titulo_en":"Hilton Grand Vacation Club",
+         "carpeta":"html",
+         "archivo":"hilton-escocia",
+         "mostrarenmenu":true,
+         "titulomenu_es":"Hilton Grand Vacation Club",
+         "titulomenu_en":"Hilton Grand Vacation Club",
+         "categoria":"Viaja por el mundo"
+      },
+      {
+         "titulo_es":"Hilton Grand Vacation Club",
+         "titulo_en":"Hilton Grand Vacation Club",
+         "carpeta":"html",
+         "archivo":"hilton-orlando",
+         "mostrarenmenu":false,
+         "titulomenu_es":"Hilton Grand Vacation Club",
+         "titulomenu_en":"Hilton Grand Vacation Club",
+         "categoria":"Viaja por el mundo"
+      },
+      {
+         "titulo_es":"Hilton Grand Vacation Club",
+         "titulo_en":"Hilton Grand Vacation Club",
+         "carpeta":"html",
+         "archivo":"hilton-miami",
+         "mostrarenmenu":false,
+         "titulomenu_es":"Hilton Grand Vacation Club",
+         "titulomenu_en":"Hilton Grand Vacation Club",
+         "categoria":"Viaja por el mundo"
+      },
+      {
+         "titulo_es":"Hilton Grand Vacation Club",
+         "titulo_en":"Hilton Grand Vacation Club",
+         "carpeta":"html",
+         "archivo":"hilton-portugal",
+         "mostrarenmenu":false,
+         "titulomenu_es":"Hilton Grand Vacation Club",
+         "titulomenu_en":"Hilton Grand Vacation Club",
+         "categoria":"Viaja por el mundo"
+      },
+      {
+         "titulo_es":"RCI",
+         "titulo_en":"RCI",
+         "carpeta":"html",
+         "archivo":"rci-londres",
+         "mostrarenmenu":true,
+         "titulomenu_es":"RCI",
+         "titulomenu_en":"RCI",
+         "categoria":"Viaja por el mundo"
+      },
+      {
+         "titulo_es":"RCI",
+         "titulo_en":"RCI",
+         "carpeta":"html",
+         "archivo":"rci-hawaii",
+         "mostrarenmenu":false,
+         "titulomenu_es":"RCI",
+         "titulomenu_en":"RCI",
+         "categoria":"Viaja por el mundo"
+      },
+      {
+         "titulo_es":"RCI",
+         "titulo_en":"RCI",
+         "carpeta":"html",
+         "archivo":"rci-moscu",
+         "mostrarenmenu":false,
+         "titulomenu_es":"RCI",
+         "titulomenu_en":"RCI",
+         "categoria":"Viaja por el mundo"
+      },
+      {
+         "titulo_es":"RCI",
+         "titulo_en":"RCI",
+         "carpeta":"html",
+         "archivo":"rci-petra",
+         "mostrarenmenu":false,
+         "titulomenu_es":"RCI",
+         "titulomenu_en":"RCI",
+         "categoria":"Viaja por el mundo"
+      },
+      {
+         "titulo_es":"Reglas de uso",
+         "titulo_en":"Usage instructions",
+         "carpeta":"html",
+         "archivo":"puntos-reglas_uso_1",
+         "mostrarenmenu":true,
+         "titulomenu_es":"Reglas de uso",
+         "titulomenu_en":"Usage instructions",
+         "categoria":"Tabla de puntos"
+      },
+      {
+         "titulo_es":"Reglas de uso",
+         "titulo_en":"Usage instructions",
+         "carpeta":"html",
+         "archivo":"puntos-reglas_uso_2",
+         "mostrarenmenu":false,
+         "titulomenu_es":"Reglas de uso",
+         "titulomenu_en":"Usage instructions",
+         "categoria":"Tabla de puntos"
+      },
+      {
+         "titulo_es":"Reglas de uso",
+         "titulo_en":"Usage instructions",
+         "carpeta":"html",
+         "archivo":"puntos-reglas_uso_3",
+         "mostrarenmenu":false,
+         "titulomenu_es":"Reglas de uso",
+         "titulomenu_en":"Usage instructions",
+         "categoria":"Tabla de puntos"
+      },
+      {
+         "titulo_es":"Fechas importantes",
+         "titulo_en":"Important date",
+         "carpeta":"html",
+         "archivo":"puntos-fechas_importantes",
+         "mostrarenmenu":true,
+         "titulomenu_es":"Fechas importantes",
+         "titulomenu_en":"Important date",
+         "categoria":"Tabla de puntos"
+      },
+      {
+         "titulo_es":"3,500 puntos",
+         "titulo_en":"3,500 points",
+         "carpeta":"html",
+         "archivo":"puntos-3500_alcanza",
+         "mostrarenmenu":true,
+         "titulomenu_es":"3,500 puntos",
+         "titulomenu_en":"3,500 points",
+         "categoria":"Para que me alcanza"
+      },
+      {
+         "titulo_es":"5,000 puntos",
+         "titulo_en":"5,000 points",
+         "carpeta":"html",
+         "archivo":"puntos-5000_alcanza",
+         "mostrarenmenu":true,
+         "titulomenu_es":"5,000 puntos",
+         "titulomenu_en":"5,000 points",
+         "categoria":"Para que me alcanza"
+      },
+      {
+         "titulo_es":"7,000 puntos",
+         "titulo_en":"7,000 points",
+         "carpeta":"html",
+         "archivo":"puntos-7000_alcanza",
+         "mostrarenmenu":true,
+         "titulomenu_es":"7,000 puntos",
+         "titulomenu_en":"7,000 points",
+         "categoria":"Para que me alcanza"
+      },
+      {
+         "titulo_es":"9,600 puntos",
+         "titulo_en":"9,600 points",
+         "carpeta":"html",
+         "archivo":"puntos-9600_alcanza",
+         "mostrarenmenu":true,
+         "titulomenu_es":"9,600 puntos",
+         "titulomenu_en":"9,600 points",
+         "categoria":"Para que me alcanza"
+      },
+      {
+         "titulo_es":"Around Mexico",
+         "titulo_en":"Around Mexico",
+         "carpeta":"html",
+         "archivo":"around_mexico",
+         "mostrarenmenu":true,
+         "titulomenu_es":"Around Mexico",
+         "titulomenu_en":"Around Mexico",
+         "categoria":"Beneficios"
+      },
+      {
+         "titulo_es":"The Rates",
+         "titulo_en":"The Rates",
+         "carpeta":"html",
+         "archivo":"therates1",
+         "mostrarenmenu":true,
+         "titulomenu_es":"The Rates",
+         "titulomenu_en":"The Rates",
+         "categoria":"Beneficios"
+      },
+      {
+         "titulo_es":"The Rates",
+         "titulo_en":"The Rates",
+         "carpeta":"html",
+         "archivo":"therates2",
+         "mostrarenmenu":false,
+         "titulomenu_es":"The Rates",
+         "titulomenu_en":"The Rates",
+         "categoria":"Beneficios"
+      },
+      {
+         "titulo_es":"Globo Go",
+         "titulo_en":"Globo Go",
+         "carpeta":"html",
+         "archivo":"beneficios-globo_go",
+         "mostrarenmenu":true,
+         "titulomenu_es":"Globo Go",
+         "titulomenu_en":"Globo Go",
+         "categoria":"Beneficios"
+      },
+      {
+         "titulo_es":"Open Season Rates",
+         "titulo_en":"Open Season Rates",
+         "carpeta":"html",
+         "archivo":"openseason",
+         "mostrarenmenu":true,
+         "titulomenu_es":"Open Season Rates",
+         "titulomenu_en":"Open Season Rates",
+         "categoria":"Beneficios"
+      },
+      {
+         "titulo_es":"Uso de Puntos en Desarrollos FAVC",
+         "titulo_en":"Points Usage in FAVC Developments",
+         "carpeta":"html",
+         "archivo":"uso-puntos1",
+         "mostrarenmenu":true,
+         "titulomenu_es":"Uso de Puntos en Desarrollos FAVC",
+         "titulomenu_en":"Points Usage in FAVC Developments",
+         "categoria":"Beneficios"
+      },
+      {
+         "titulo_es":"Uso de Puntos en Desarrollos FAVC",
+         "titulo_en":"Points Usage in FAVC Developments",
+         "carpeta":"html",
+         "archivo":"uso-puntos2",
+         "mostrarenmenu":false,
+         "titulomenu_es":"Uso de Puntos en Desarrollos FAVC",
+         "titulomenu_en":"Points Usage in FAVC Developments",
+         "categoria":"Beneficios"
+      },
+      {
+         "titulo_es":"Compartiendo Sonrisas",
+         "titulo_en":"Compartiendo Sonrisas",
+         "carpeta":"html",
+         "archivo":"compartiendo_sonrisas",
+         "mostrarenmenu":true,
+         "titulomenu_es":"Compartiendo Sonrisas",
+         "titulomenu_en":"Compartiendo Sonrisas",
+         "categoria":"Beneficios"
+      },
+      {
+         "titulo_es":"Concierge 360",
+         "titulo_en":"Concierge 360",
+         "carpeta":"html",
+         "archivo":"concierge-life",
+         "mostrarenmenu":true,
+         "titulomenu_es":"Concierge 360",
+         "titulomenu_en":"Concierge 360",
+         "categoria":"Beneficios"
+      },
+      {
+         "titulo_es":"Concierge 360",
+         "titulo_en":"Concierge 360",
+         "carpeta":"html",
+         "archivo":"concierge-compras",
+         "mostrarenmenu":false,
+         "titulomenu_es":"Concierge 360",
+         "titulomenu_en":"Concierge 360",
+         "categoria":"Beneficios"
+      },
+      {
+         "titulo_es":"Concierge 360",
+         "titulo_en":"Concierge 360",
+         "carpeta":"html",
+         "archivo":"concierge-ejecutivo",
+         "mostrarenmenu":false,
+         "titulomenu_es":"Concierge 360",
+         "titulomenu_en":"Concierge 360",
+         "categoria":"Beneficios"
+      },
+      {
+         "titulo_es":"Concierge 360",
+         "titulo_en":"Concierge 360",
+         "carpeta":"html",
+         "archivo":"concierge-viajes",
+         "mostrarenmenu":false,
+         "titulomenu_es":"Concierge 360",
+         "titulomenu_en":"Concierge 360",
+         "categoria":"Beneficios"
+      },
+      {
+         "titulo_es":"Concierge 360",
+         "titulo_en":"Concierge 360",
+         "carpeta":"html",
+         "archivo":"concierge-medica",
+         "mostrarenmenu":false,
+         "titulomenu_es":"Concierge 360",
+         "titulomenu_en":"Concierge 360",
+         "categoria":"Beneficios"
+      },
+      {
+         "titulo_es":"Fiesta Rewards",
+         "titulo_en":"Fiesta Rewards",
+         "carpeta":"html",
+         "archivo":"fiesta_rewards",
+         "mostrarenmenu":true,
+         "titulomenu_es":"Fiesta Rewards",
+         "titulomenu_en":"Fiesta Rewards",
+         "categoria":"Beneficios"
+      },
+      {
+         "titulo_es":"Beneficios",
+         "titulo_en":"Benefits",
+         "carpeta":"html",
+         "archivo":"beneficios_master-reglas",
+         "mostrarenmenu":true,
+         "titulomenu_es":"Beneficios",
+         "titulomenu_en":"Benefits",
+         "categoria":"Beneficios master"
+      },
+      {
+         "titulo_es":"Master International Points",
+         "titulo_en":"Master International Points",
+         "carpeta":"html",
+         "archivo":"beneficios_master-amsterdam",
+         "mostrarenmenu":true,
+         "titulomenu_es":"Master International Points",
+         "titulomenu_en":"Master International Points",
+         "categoria":"Beneficios master"
+      },
+      {
+         "titulo_es":"Master International Points",
+         "titulo_en":"Master International Points",
+         "carpeta":"html",
+         "archivo":"beneficios_master-atenas",
+         "mostrarenmenu":false,
+         "titulomenu_es":"Master International Points",
+         "titulomenu_en":"Master International Points",
+         "categoria":"Beneficios master"
+      },
+      {
+         "titulo_es":"Master International Points",
+         "titulo_en":"Master International Points",
+         "carpeta":"html",
+         "archivo":"beneficios_master-bali",
+         "mostrarenmenu":false,
+         "titulomenu_es":"Master International Points",
+         "titulomenu_en":"Master International Points",
+         "categoria":"Beneficios master"
+      },
+      {
+         "titulo_es":"Master International Points",
+         "titulo_en":"Master International Points",
+         "carpeta":"html",
+         "archivo":"beneficios_master-bangkok",
+         "mostrarenmenu":false,
+         "titulomenu_es":"Master International Points",
+         "titulomenu_en":"Master International Points",
+         "categoria":"Beneficios master"
+      },
+      {
+         "titulo_es":"Master International Points",
+         "titulo_en":"Master International Points",
+         "carpeta":"html",
+         "archivo":"beneficios_master-barcelona",
+         "mostrarenmenu":false,
+         "titulomenu_es":"Master International Points",
+         "titulomenu_en":"Master International Points",
+         "categoria":"Beneficios master"
+      },
+      {
+         "titulo_es":"Master International Points",
+         "titulo_en":"Master International Points",
+         "carpeta":"html",
+         "archivo":"beneficios_master-florencia",
+         "mostrarenmenu":false,
+         "titulomenu_es":"Master International Points",
+         "titulomenu_en":"Master International Points",
+         "categoria":"Beneficios master"
+      }
+   ]
+}

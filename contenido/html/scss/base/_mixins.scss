@@ -1,0 +1,53 @@
+// Frameception 2.0
+// _mixins
+// Here you can add and define all your sass mixins so you can speed you style process
+@mixin rounded($radius: 4px) {
+  -moz-border-radius: $radius;
+  -webkit-border-radius: $radius;
+  border-radius: $radius;
+}
+@mixin rounded-top($radius: 4px) {
+  -moz-border-top-left-radius: $radius;
+  -moz-border-top-right-radius: $radius;
+  -webkit-border-top-left-radius: $radius;
+  -webkit-border-top-right-radius: $radius;
+  border-top-left-radius: $radius;
+  border-top-right-radius: $radius;
+}
+@mixin rounded-bottom($radius: 4px) {
+  -moz-border-bottom-left-radius: $radius;
+  -moz-border-bottom-right-radius: $radius;
+  -webkit-border-bottom-left-radius: $radius;
+  -webkit-border-bottom-right-radius: $radius;
+  border-bottom-left-radius: $radius;
+  border-bottom-right-radius: $radius;
+}
+@mixin box-shadow($top, $left, $blur, $color, $inset:"") {
+  -webkit-box-shadow:$top $left $blur $color #{$inset};
+  -moz-box-shadow:$top $left $blur $color #{$inset};
+  box-shadow:$top $left $blur $color #{$inset};
+}
+@mixin clean-list{
+  list-style-type:none;
+  margin:0;
+  padding:0;
+}
+@mixin fontawesome{
+  display: inline-block;
+  font-family: FontAwesome;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+@mixin transition($tp, $td, $ttf) {
+  -webkit-transition: $tp $td $ttf;
+  transition: $tp $td $ttf;
+}
+@mixin diagonal($width, $height, $style){
+  border-top:$height solid white;
+  border-right:$width $style transparent;
+  content:"";
+  position: absolute;
+  top:0;
+  right:-$width;
+}

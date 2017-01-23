@@ -1,0 +1,112 @@
+.content.villas-content{
+	z-index:0;
+	.villas-main{
+		border-top:solid white 1px;
+		border-bottom: solid white 1px;
+		padding: 40px 0px 20px;
+		.villas-title{
+			color:white;
+			text-align: center;
+			font-size: 42px;
+		}
+		.villas-subtitle{
+			text-align: center;
+			margin-bottom: 30px;
+			margin-top: 12px;
+			line-height: 1.2; 
+		}
+		.villas-description{
+			font-size: 18px;
+			text-align: justify;
+		}
+	}
+	.gallery-villas{
+		display: flex;
+	    width: 140px;
+	    justify-content: space-between;
+	    padding: 10px;
+	    margin-left: auto;
+	    margin-right: auto;
+	    border-bottom: solid white .5px;
+	    margin-top: 10px;
+		img{
+			width: 25px;
+			height: 25px
+		}
+		p{
+			margin-bottom: 0; font-size: 18px; color:#E5E1DE;
+			
+		}
+		&:hover{ cursor: pointer;}
+		&:hover p{color:white;}
+	}
+}
+
+.content.villas-sub{
+	transform: translate(-50%, -42px);
+	.title{
+		.line{width:35%;}
+		h1{font-size: 42px;}
+		&.large{ 
+			h1{font-size: 30px;}
+			.line{width:20%;}
+		}
+	}
+	.subtitle h2{
+		color: white;
+	    font-size: 24px;
+	    letter-spacing: 4px;
+	}
+	.sub-main{
+		display:flex;
+		.sub-item{
+			width:25%;
+			text-align: center;
+			background-color: rgba(111,98,88,.65);
+			padding:40px 0px 20px;
+
+			&.dark{background-color: rgba(103,89,77,.81);}
+			h1{font-size: 20px;color:rgba(255,255,255,.8); margin-bottom: 40px;}
+			h2{font-size: 16px;color:rgba(255,255,255,.7);}
+		}
+	}
+	.sub-main.hoteles-variant{
+		.sub-item{
+			width: 33.3333%;
+			padding: 20px;
+			position: relative;
+			img.logo{width:70%;margin-top: 50px; margin-bottom: 70px;}
+			h2{color:#A3A5A8; letter-spacing: 6px; position: absolute; bottom: 20px; left:50%; transform: translateX(-50%); width:100%;}
+		}
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 896px){
+    .content.villas-sub .sub-main.hoteles-variant .sub-item h2{font-size: 14px;}
+}
+
+.content.viajes-sub{
+	.sub-main{
+		border-bottom: solid white 1px;
+		border-top: solid white 1px;
+		padding:20px;
+		text-align: center;
+		img.sub-logo{width:200px; margin-top: 30px; margin-bottom: 50px;}
+		p.phrase{font-size: 28px; margin-bottom: 0; line-height:1.2;}
+		ul.viajes-list{
+			list-style: none;
+			margin: 0;
+			color:white;
+			text-align: left;
+		}
+		.medium-3 ul.viajes-list{font-size: 14px;}
+	}
+	.sub-options{
+		display: flex;
+		justify-content: center;
+		h3.options-item{border-bottom: solid white 1px; letter-spacing: 4px; font-size: 16px;} 
+		a:hover{color:white;}
+		h3.options-item:hover{border-bottom-color:#F2A41B; }
+		.options-hyphen{margin-left: 16px; margin-right: 16px;}
+	}
+}
